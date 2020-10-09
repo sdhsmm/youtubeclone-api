@@ -1,0 +1,3 @@
+insert into media(title,src,mediatype) values('Pale Blue Dot','http://static.videogular.com/assets/videos/videogular.mp4','video/mp4')
+insert into media(title,src,mediatype) values('Big Buck Bunny','http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov','video/mp4')
+insert into media(title,src,mediatype) values('Elephants Dream','http://static.videogular.com/assets/videos/elephants-dream.mp4','video/mp4')

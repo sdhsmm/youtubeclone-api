@@ -1,5 +1,6 @@
 package com.task.youtubeclone.data.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,6 +19,7 @@ public class Media {
 	
 	String src;
 	
+	@Column(name = "mediatype")
 	String type;
 
 	public Long getId() {
